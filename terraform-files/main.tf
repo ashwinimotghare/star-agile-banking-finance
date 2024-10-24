@@ -1,4 +1,4 @@
-resource "aws_instance" "test-server" {
+resource "aws_instance" "project-server" {
   ami = "ami-00385a401487aefa4"
   instance_type = "t2.micro"
   key_name = "LinuxVM"
